@@ -1,4 +1,4 @@
-/* script.js */
+
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("more-info").addEventListener("click", function() {
         alert("Such wow! Message here amazing!");
@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.getElementById('email-link').addEventListener('click', function(event) {
-    event.preventDefault();  // Prevent the default mailto behavior
-    document.getElementById('email-message').style.display = 'block';  // Show the message
+    event.preventDefault();  
+    document.getElementById('email-message').style.display = 'block'; 
 });
 
 function showImage(imageSrc) {
